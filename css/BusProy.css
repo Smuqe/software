@@ -1,0 +1,97 @@
+body{
+  height: 100vh;
+}
+
+.izqu{
+  width: 90%;
+  margin-bottom: 2%;
+}
+.alaos{
+  background-color: #DAE3E5 !important;
+}
+
+#bot{
+  width: 13%;
+  margin-left: 9%;
+}
+.Resultados{
+  display: flex;
+  align-items: top;
+  justify-content: center;
+  width: 100%;
+}
+.hijo1{
+  width: 80%;
+  height: 100%;
+}
+.hijo2{
+  width: 20%;
+  height: 100%;
+}
+.table{
+  font-size: 1.2em;
+  width: 100%;
+}
+.pie{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+th{
+  height: 40px !important;
+}
+.tit{
+  margin-bottom: 2%;
+}
+.padre2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.im{
+  height: 30px;
+  width: 12%;
+}
+.row{
+  margin-bottom: 2%;
+}
+
+.proy{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3%;
+}
+.form-control{
+  display: inline-block;
+  width: 70%;
+}
+#fe1,#fe2{
+  width: 32.5%;
+}
+.col{
+  width: 13%;
+
+}
+
+
+.fech{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3%;
+}
+#separacion{
+  margin-left: 1%;
+  margin-right: 1%;
+}
+.tab{
+  height: 10%;
+}
+.padre{
+margin-top: 12%;
+margin-bottom: 12%;
+margin-left: 20%;
+margin-right: 20%;
+}

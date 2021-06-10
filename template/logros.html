@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Mostrar logros</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  	<link rel="stylesheet" href="../css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<header>	
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			  <div class="row" >
+				  <div class="col-3 d-none d-md-block d-lg-block d-xl-block">
+				  	<div id="logo-img" alt="Logo image"></div></div>
+				  <div class="col-md-9 col-sm-12 col-12">
+				  	<a id="a-col" href="detalle_cargos.html"><h1>Gestión de miembros de proyecta UNI</h1></a>
+				  </div>
+			  </div>
+		</nav>
+	</header>
+
+	<main role="main">
+    <!-- Interfaz. -->
+    <section class="container mar-top">
+      <!-- Columnas de información sobre el cargo. -->
+      <div class="row tile">
+				<h2 class="container">Mostrar Logros</h2>	
+      </div>
+	    <!-- Campos -->
+	    <div class="row tile justify-content-md-center">
+				<div class="btn-group col-md-12" role="group" aria-label="Basic example">
+				  <button type="button" class="btn btn-light">Campo 1</button>
+				  <button type="button" class="btn btn-light">Campo 2</button>
+				  <button type="button" class="btn btn-light">Campo 3</button>
+				  <button type="button" class="btn btn-light">Campo 4</button>
+				  <button type="button" class="btn btn-light">Campo 5</button>
+				  <button type="button" class="btn btn-light">Campo 6</button>
+				</div> 		
+		  </div>	    	
+	    	<!--Fin de campos-->
+				<!-- Imagen-->
+			<div class="row tile pad-top">
+				<div class="col-md-6 align-self-center">
+					<div class="row justify-content-md-center">
+						<a href="#" class="col-md-4 mar-top text-center"><img src="../imagenes/logro1.png" class="img-fluid " alt="Responsive image"></a>
+						<a href="#" class="col-md-4 mar-top text-center"><img src="../imagenes/logro2.png" class="img-fluid " alt="Responsive image"></a>
+						<a href="#" class="col-md-4 mar-top text-center"><img src="../imagenes/logro3.png" class="img-fluid " alt="Responsive image"></a>
+						<a href="#" class="col-md-4 mar-top text-center"><img src="../imagenes/logro4.png" class="img-fluid " alt="Responsive image"></a>
+					</div>
+				</div>
+				<!-- Fin Imagen -->
+				<!-- Informacion -->
+				<form class="col-md-6">
+						<div class="form-group row">
+						  <label for="nombre" class="col-2 col-form-label">Nombre logro</label>
+						  <div class="col-10">
+						    <input class="form-control" type="text" id="nombre" readonly>
+						  </div>
+						</div>
+						<div class="form-group row">
+						  <label for="descripcion" class="col-2 col-form-label">Descripcion</label>
+						  <div class="col-10">
+						    <textarea class="form-control" type="text" id="descripcion" rows="8" readonly></textarea>
+						  </div>
+						</div>							
+						<div class="form-group row">
+						  <label for="fecha" class="col-2 col-form-label">Fecha obtencion</label>
+						  <div class="col-10">
+						    <input class="form-control" type="date" id="fecha" readonly>
+						  </div>
+						</div>	    			    	
+		    </form>
+		  </div>
+			<!-- Fin informacion -->
+			<!-- Botones -->
+	    <div class="row tile">
+				<div class="col-md-6">
+				</div>
+				<div class="col-md-3 col-6 text-center">
+					<a role="button" href="#" class="btn btn-primary col-8 boton-sep">Regresar</a>
+				</div>
+				<div class="col-md-3 col-6 text-center">
+					<a role="button" href="#" class="btn btn-primary col-8 boton-sep">Agregar</a>
+				</div>
+	    </div>
+	    <!-- Fin botones-->
+    </section>
+	</main>
+</body>
+</html>

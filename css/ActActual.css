@@ -1,0 +1,43 @@
+#buscar{
+  height: 80%;
+  width: 4%;
+  margin-left: 1%;
+}
+.form-control{
+  display: inline-block;
+  width: 70%;
+}
+#f1{
+  width: 80%;
+  align-items: center;
+}
+.centrar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.grafic{
+  width: 70%;
+}
+#g1{
+  display: flex;
+  align-items: center;
+}
+.f2{
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.row{
+  margin-bottom: 2%;
+}
+.f4{
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+.f5{
+  padding-left: 3%;
+}
+.padre{
+  margin: 10%;
+}

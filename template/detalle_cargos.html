@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Detalle Cargos con experiencia</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  	<link rel="stylesheet" href="../css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<header>	
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			  <div class="row" >
+				  <div class="col-3 d-none d-md-block d-lg-block d-xl-block">
+				  	<div id="logo-img" alt="Logo image"></div></div>
+				  <div class="col-md-9 col-sm-12 col-12">
+				  	<a id="a-col" href="detalle_cargos.html"><h1>Gestión de miembros de proyecta UNI</h1></a>
+				  </div>
+			  </div>
+		</nav>
+	</header>
+
+	<main role="main">
+    <!-- Interfaz. -->
+    <section class="container mar-top">
+      <!-- Columnas de información sobre el cargo. -->
+      	<div class="row tile">
+      	  <h2 class="container">Mostrar cargos con experiencia</h2>	
+      	</div>
+	      <div class="row tile">
+	        <div class="col-md-4">
+						<div class="list-group">
+							  <a href="#" class="list-group-item list-group-item-action">Director de Programa</a>
+							  <a href="#" class="list-group-item list-group-item-action">Director de proyecto</a>
+							  <a href="#" class="list-group-item list-group-item-action">Miembro de proyecto</a>
+							  <a href="#" class="list-group-item list-group-item-action">...</a>
+							  <a href="#" class="list-group-item list-group-item-action">Presidente</a>
+						</div>
+	        </div>
+
+	        <div class="col-md-8">
+						<div class="card bg-light mb-3">
+						  <div class="card-body">
+						    <h5 class="card-title">Funcion</h5>
+						    <p class="card-text">El director de programa debe monitorizar el seguimiento de los proyectos.</p>
+						    <h5 class="card-title">Categoria</h5>
+						    <p class="card-text">Cargo general.</p>
+						    <h5 class="card-title">Requisitos</h5>
+						    <p class="card-text">Ser miembro de proyecta activo desde hace más de 6 meses. Haber participado en por lo menos 5 proyectos.</p>
+						  </div>
+						</div>
+	        </div>
+
+				  <div class="form-group col-md-12">
+				    <label for="SeleccionOrdenar">Ingrese forma de ordenar</label>
+				    <select class="form-control" id="SeleccionOrdenar">
+				      <option>Fecha Inicio</option>
+				      <option>Fecha Fin</option>
+				      <option>Cargo Especifico</option>
+				      <option>Estado</option>
+				      <option>Descripcion</option>
+				    </select>
+				  </div>
+
+					<div class="col-md-12">
+					<table class="table">
+					  <thead class="thead-light">
+					    <tr>
+					      <th scope="col">#</th>
+					      <th scope="col">Cargo Especifico</th>
+					      <th scope="col">Descripcion</th>
+					      <th scope="col">Fecha Inicio</th>
+					      <th scope="col">Fecha Fin</th>
+					      <th scope="col">Estado</th>
+					    </tr>
+					  </thead>
+					  <tbody>
+					    <tr>
+					      <th scope="row">1</th>
+					      <td>MP-RRHH</td>
+					      <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</td>
+					      <td>04-06-21</td>					      
+					      <td>04-06-21</td>
+					      <td>C</td>
+					    </tr>
+					    <tr>
+					      <th scope="row">2</th>
+					      <td>MP-CONT</td>
+					      <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</td>
+					      <td>04-06-21</td>
+					      <td>04-06-21</td>
+					      <td>B</td>
+					    </tr>
+					    <tr>
+					      <th scope="row">3</th>
+					      <td>MP-VOL</td>
+					      <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</td>
+					      <td>04-06-21</td>
+					      <td>04-06-21</td>
+					      <td>A</td>
+					    </tr>
+					  </tbody>
+					</table>	
+					</div>
+	      </div> <!-- end for div row (Todo el conjunto)-->
+    </section>
+	</main>
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+body {
+  font-size: 16px;
+  color: #000;
+  background-color: #DAE3E5;
+  font-family: 'Oxygen', sans-serif;
+}
+/** https://coolors.co/04080f-507dbc-a1c6ea-bbd1ea-dae3e5 **/
+
+/** HEADER **/
+
+#a-col { /* Organization name */
+  font-family: 'Lora', serif;
+  color: #04080f;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  text-align: center;
+}
+
+#logo-img {
+  background: url('../images/logo-dark-proyecta-200.png') no-repeat;
+  width: 200px;
+  height: 100px;
+  margin: 15px 0px 10px 0;
+}
+
+.tile{
+  /**border: 2px solid #1f1300;**/
+  background-color: #DAE3E5;
+  color: #000;
+}
+.mar-top{
+  margin-top: 20px;
+}
+.pad-top{
+  padding-top: 20px;
+}
+#titulo{
+  text-align: left;
+  border: 2px solid #1f1300;
+}
+
+.list-group-item:hover, .list-group-item:focus, .list-group-item:active{
+  background-color: #dae3e5;
+  color: #000; 
+}
+
+#grafico-o{
+  text-align: center;
+}
+
+table{
+  border: 2px solid #1f1300;
+}
+tbody{
+  background-color: #dae3e5;
+}
+
+.boton-sep{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}

@@ -1,0 +1,60 @@
+
+
+div{    
+    padding: 5px 5px;
+    margin: 5px 5px;
+}
+
+.body{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+
+.encabezadotabla1, .encabezadotabla2{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2em;
+}
+
+.tabla1, .tabla2{
+    border: 1px solid black;
+
+    max-height: 20em;
+    overflow-x:hidden; 
+    overflow-y:scroll;
+    border-radius: 20px;
+}
+
+.tabla1{
+    margin-bottom: 3em;
+}
+
+li{
+    list-style:none;
+    display:inline;
+    padding-right: 2em;
+}
+
+input, select{
+    margin-left: 1em;
+}
+
+table {
+    width: 100%;
+    
+}
+
+th, td {
+    width: 25%;
+    text-align: left;
+    
+    padding: 0.3em;
+}
+
+th{
+    background: #eee;
+}

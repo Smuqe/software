@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+
+<head>
+    <meta charset = "UTF-8">
+    <title>Documento</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel = "shortcut icon" type = "image/x-icon" href = "../imagenes/trebol.ico">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel = "stylesheet" type = "text/css" href = "../css/sanciones.css">
+</head>
+
+<body>
+
+    <div class="body">
+        <div class="encabezadotabla1">
+            <h2>Mostrar observaciones</h2> 
+            
+        </div>
+
+        <div class="tabla1">
+            
+            <label for = 'Codigo' class= "codigo">Codigo: </label> <input type = "text" placeholder = "Codigo de observacion" maxlength = "9" id = "Codigo">
+
+            <ul>
+
+                <li>
+                    <label>Fecha: </label> 
+                    <select>
+                            <option value = "7d">Ultima semana</option> 
+                            <option value = "30d">Ultimo mes</option>
+                            <option value = "360d">Ultimo año</option>
+                            <option value = "999d">Todo</option>
+                    </select>
+                </li>
+
+                <li>
+                    <label>Tipo: </label> 
+                    <select>
+                            <option value = "t1">Técnico</option> 
+                            <option value = "t2">Motivacion y logros</option>
+                            <option value = "t3">Referentes al trabajo</option>
+                            <option value = "t4">Fortalezas personales</option>
+                    </select>
+                </li>
+
+                <li>
+                    <input type = "button" value = "Buscar">
+                </li>
+            </ul>
+
+            <div class="tablcont">
+                <table class="TablaAsist"> 
+
+                    <tr> <!--Columna-->
+                        <th scope="row">Observacion</th>
+                        <th>Tipo</th>
+                        <th>Fecha</th>
+                        <th>Descripcion</th>
+                    </tr>
+
+                    <tr>
+                        <th>O0008</th>
+                        <td>Motivacion y logros</td>
+                        <td>12/06/20</td>
+                        <td>Agresividad con competidores</td>
+                    </tr>
+
+                    <tr>
+                        <th>O0011</th>
+                        <td>Referentes al trabajo</td>
+                        <td>15/09/20</td>
+                        <td>Iniciativa y liderazgo</td>
+                    </tr>
+
+                    <tr>
+                        <th>O0019</th>
+                        <td>Técnico</td>
+                        <td>21/03/21</td>
+                        <td>Certificacion CIGP</td>
+                    </tr>
+
+
+
+            </table>
+            </div>
+        </div>
+
+        <p align="right"> <input type = "button" value = "Agregar observacion"> </p>
+        
+
+    </div>
+</body>
+
+</html>

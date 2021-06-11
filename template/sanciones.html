@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+
+<head>
+    <meta charset = "UTF-8">
+    <title>Documento</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel = "shortcut icon" type = "image/x-icon" href = "../imagenes/trebol.ico">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel = "stylesheet" type = "text/css" href = "../css/sanciones.css">
+</head>
+
+<body>
+
+    <div class="body">
+        <div class="encabezadotabla1">
+            <h2>Mostrar sanciones</h2> 
+            
+        </div>
+
+        <div class="tabla1">
+            
+            <label for = 'Codigo' class= "codigo">Codigo: </label> <input type = "text" placeholder = "Codigo de sancion" maxlength = "9" id = "Codigo">
+
+            <ul>
+
+                <li>
+                    <label>Fecha: </label> 
+                    <select>
+                            <option value = "7d">Ultima semana</option> 
+                            <option value = "30d">Ultimo mes</option>
+                            <option value = "360d">Ultimo año</option>
+                            <option value = "999d">Todo</option>
+                    </select>
+                </li>
+
+                <li>
+                    <label>Tipo: </label> 
+                    <select>
+                            <option value = "t1">Amonestación Escrita</option> 
+                            <option value = "t2">Multa</option>
+                    </select>
+                </li>
+
+                <li>
+                    <input type = "button" value = "Buscar">
+                </li>
+            </ul>
+
+            <div class="tablcont">
+                <table class="TablaAsist"> 
+
+                    <tr> <!--Columna-->
+                        <th scope="row">Sancion</th>
+                        <th>Tipo</th>
+                        <th>Fecha</th>
+                        <th>Fecha Subsanacion</th>
+                        <th>Descripcion</th>
+                    </tr>
+
+                    <tr>
+                        <th>S0012</th>
+                        <td>Amonestación Escrita</td>
+                        <td>03/05/20</td>
+                        <td>07/05/20</td>
+                        <td>Incumplir con las metas</td>
+                    </tr>
+
+                    <tr>
+                        <th>S0015</th>
+                        <td>Amonestación Escrita</td>
+                        <td>06/11/20</td>
+                        <td>17/11/20</td>
+                        <td>Obstaculizar las labores de supervisión</td>
+                    </tr>
+
+                    <tr>
+                        <th>S0017</th>
+                        <td>Multa</td>
+                        <td>26/04/21</td>
+                        <td>-</td>
+                        <td>Efectuar cobros indebidos</td>
+                    </tr>
+
+
+
+            </table>
+            </div>
+        </div>
+
+        <p align="right"> <input type = "button" value = "Agregar observacion"> </p>
+
+    </div>
+</body>
+
+</html>

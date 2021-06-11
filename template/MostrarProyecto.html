@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/MostrarProy.css">
+    <title>Mostrar Proyecto</title>
+  </head>
+  <body>
+    <div class="marco">
+      <div class="padre">
+        <div class="padre2">
+          <form class="izqu" action="index.html" method="post">
+            <div class="fila" id="fila1">
+              <p class="col">Proyecto</p>
+              <input class="input is-normal" type="text" placeholder="Nombre proyecto">
+              <img id="buscar" src="../imagenes/Buscar.png" alt="Buscar">
+            </div>
+            <div class="fila" id="fila2">
+              <p class="col">Fechas</p>
+              <input class="input is-normal" id="fe1" type="date" placeholder="Fecha inicio">
+              <p id="separacion">-</p>
+              <input class="input is-normal" id="fe2" type="date" placeholder="Fecha fin">
+            </div>
+            <div class="fila" id="fila3">
+              <p class="col">Cargos</p>
+              <input class="input is-normal" type="text" placeholder="Cargos">
+            </div>
+            <div class="fila" id="fila4">
+              <p class="col">Areas</p>
+              <input class="input is-normal" type="text" placeholder="Areas">
+              <input type="submit" id="bot" name="A" value="Buscar" class="button is-info" >
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="Resultados">
+        <table class="table">
+          <thead>
+            <tr>
+              <th id="c1">Proyecto</abbr></th>
+              <th id="c2">Estado Proyecto</abbr></th>
+              <th id="c3">Cargo</abbr></th>
+              <th id="c4">Desempeño</abbr></th>
+              <th id="c5">Observaciones</abbr></th>
+            </tr>
+          <tbody>
+            <tr>
+              <td>P035</td>
+              <td>Director</td>
+              <td>14</td>
+              <td>
+                <img class="im" src="../imagenes/archivo.png" alt="">
+              </td>
+              <td>
+                <img class="im" src="../imagenes/archivo.png" alt="">
+              </td>
+            </tr>
+            <tr>
+              <td>P035</td>
+              <td>Director</td>
+              <td>14</td>
+              <td>
+                <img class="im" src="../imagenes/archivo.png" alt="">
+              </td>
+              <td>
+                <img class="im" src="../imagenes/archivo.png" alt="">
+              </td>
+            </tr>
+          </tbody>
+      </div>
+    </div>
+
+  </body>
+</html>
